@@ -8,6 +8,9 @@
   <title>ProSkills</title>
   <!-- poppins font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- font awesome icon -->
+  <script src="https://kit.fontawesome.com/4fdc3b0f55.js" crossorigin="anonymous"></script>
+
   <!-- css bootstrap cdn link -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> -->
@@ -46,7 +49,7 @@
 
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search courses" aria-label="Search">
-            <button class="btn btn-outline-danger" type="submit">Search</button>
+            <button class="btn btn-outline-dark" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -71,7 +74,7 @@
               <div class="pb-5">
                 <h1 class="fw-bold">First slide label</h1>
                 <p>Some representative placeholder content for the first slide.</p>
-                <button class="btn btn-danger">Get Started</button>
+                <button class="btn btn-light">Get Started</button>
               </div>
             </div>
 
@@ -83,7 +86,7 @@
               <div class="pb-5">
                 <h1 class="fw-bold">First slide label</h1>
                 <p>Some representative placeholder content for the first slide.</p>
-                <button class="btn btn-danger">Get Started</button>
+                <button class="btn btn-light">Get Started</button>
               </div>
             </div>
 
@@ -95,7 +98,7 @@
               <div class="pb-5">
                 <h1 class="fw-bold">First slide label</h1>
                 <p>Some representative placeholder content for the first slide.</p>
-                <button class="btn btn-danger">Get Started</button>
+                <button class="btn btn-light">Get Started</button>
               </div>
             </div>
 
@@ -118,7 +121,7 @@
 
   <main>
     <!-- popular courses section -->
-    <section class="container my-5 py-5">
+    <section class="container my-5 pt-5">
       <div class="mx-auto w-lg-50 w-md-75 w-sm-75 w-100 pb-4">
         <h2 class="fs-1 fw-bold text-center">Discover Our Popular Courses</h2>
         <p class="text-center pt-2">It is a long established fact that a reader will be distracted by the readable
@@ -213,7 +216,53 @@
         </div>
       </div>
 
+      <div class="mt-5 d-flex justify-content-center">
+        <a href="#" class="btn btn-dark">View All</a>
+      </div>
+    </section>
 
+    <!-- Join section -->
+    <section class="container my-5 py-5">
+      <div class="container p-5 bg-dark d-flex flex-column flex-lg-row rounded-2">
+        <div class="w-lg-50 w-100 p-5 text-center text-lg-start">
+          <h2 class="text-white fw-bold fs-2">Ready to join?</h2>
+          <p class="text-white-50">It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout</p>
+        </div>
+        <div
+          class="w-lg-50 w-100 p-lg-5 pb-3 pt-0 d-flex justify-content-lg-end justify-content-center align-items-center">
+          <button type="button" class="btn btn-light px-4 py-2" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Register Now</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header text-center">
+                  <h4 class="modal-title fw-semibold fs-4 w-100" id="exampleModalLabel">Sign up</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                  <input type="text" class="form-control m-5 w-75 border border-0 border-bottom rounded-0 mx-auto"
+                    id="exampleFormControlInput1" placeholder="Your Name">
+
+                  <input type="email" class="form-control mb-4 w-75 border border-0 border-bottom rounded-0 mx-auto"
+                    id="exampleFormControlInput1" placeholder="Your Email">
+
+                </div>
+                <div class="modal-footer mx-auto">
+
+                  <button type="button" class="btn btn-dark py-2 px-4">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
   </main>
 
